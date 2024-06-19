@@ -16,6 +16,7 @@ unstable = []
 std = []
 
 [dependencies]
+rayon = { version = "1.10.0" , optional = true }
 serde = { version = "1.0", optional = true, default-features = false, features = ["derive", "alloc"] }
 
 [dev-dependencies]
